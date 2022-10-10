@@ -14,6 +14,7 @@
 # using-list:
  - enumerate(iterable, start : int (default is 0 if no value is given)).
  - Using list.sort() will sort the numbers in place and return None. If you want to print it, use the varable name:
+   
    names.sort()
    print(names) # -- Correct.
    print(names.sort()) # -- Incorrect. Will return None.
