@@ -4,7 +4,7 @@
     character_name = " Empress Svetlana "
     print(len(character_name)) # Output: 18
 
-    After using strip():
+    # using strip():
     print(len(character_name.strip())) # Output 16
 
 - Using split() will return a list:
