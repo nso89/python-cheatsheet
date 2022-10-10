@@ -1,0 +1,29 @@
+# using-string:
+- To verify that strip worked, you can use len() to return the index:
+  
+    character_name = " Empress Svetlana "
+    print(len(character_name)) # Output: 18
+
+    After using strip():
+    print(len(character_name.strip())) # Output 16
+
+- Using split() will return a list:
+    
+    print(type(introduction.split(" "))) # Output: <class 'list'> 
+
+# using-list:
+ - enumerate(iterable, start : int (default is 0 if no value is given)).
+ - Using list.sort() will sort the numbers in place and return None. If you want to print it, use the varable name:
+   names.sort()
+   print(names) # -- Correct.
+   print(names.sort()) # -- Incorrect. Will return None.
+
+# using-dictionary:
+- Using a for loop with enumerate() will assign the index to the key and the pair as the value:
+    
+    weapons : Dict[str,int] = {"Sword" : 20, "Axe": 10, Bow: 15}
+
+    for key, value in enumerate(weapons.items(), start = 1):
+        # The first pair is Sword : 20, but because enumerate returns an index,
+        # key will be 1 (the index returned from enumerate) and value will be the pair Sword:20.
+        print(f"Key: {key} Value: {value}")
