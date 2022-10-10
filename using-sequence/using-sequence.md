@@ -4,4 +4,4 @@
 
 [Using List](../using-sequence/using-list/using-list.md)
 
-[Using Slice]()
+[Using Slice](../using-sequence/using-slice/using-slice.md)
