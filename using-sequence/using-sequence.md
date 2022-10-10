@@ -1,6 +1,6 @@
 #### Using Sequence
 
-[Using String](../../using-string/using-string.md)
+[Using String](../../main/using-string/using-string.md)
 
 [Using List]()
 
