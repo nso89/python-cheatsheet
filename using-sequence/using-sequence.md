@@ -2,6 +2,6 @@
 
 [Using String](../using-sequence/using-string/using-string.md)
 
-[Using List]()
+[Using List](../using-sequence/using-list/using-list.md)
 
 [Using Slice]()
