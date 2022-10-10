@@ -2,7 +2,7 @@
 - [Create a `set` with elements](#create-a-set-with-elements)
 - [Using `intersection()`](#using-intersection())
 - [Using `union()`](#using-union())
-- [Using difference()](#using-difference())
+- [Using `difference()`](#using-difference())
 
 #### <a name="create-an-empty-set"></a>Create an empty `set`:
 ```python
