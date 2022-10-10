@@ -7,7 +7,6 @@
 - [Using `startswith()`](#using-startswith())
 - [Using `endsswith()`](#using-endsswith())
 - [Using `split()`](#using-split())
-- [Using `join()`](#using-join())
 - [Using `len()`](#using-len())
 
 #### <a name="create-a-string"></a>Create a `string`:
@@ -46,15 +45,11 @@ if introduction.startswith("he"):
 if introduction.endswith("orld"):
     print("String ends with orld.") # Output: Strng ends with orld.
 ```
-#### <a name="using-split())"></a>Using `split()`:
+#### <a name="using-split()"></a>Using `split()`:
 ```python
 print(introduction.split(" ")) # Output: ['hello', 'world']
 ```
-#### <a name="using-join())"></a>Using `join()`:
-```python
-print(" ".join(introduction.split(" ")).title()) # Output: Hello World
-```
-#### <a name="using-len())"></a>Using `len()`:
+#### <a name="using-len()"></a>Using `len()`:
 ```python
 print(len(introduction)) # Output: 11
 ```
