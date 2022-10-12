@@ -1,5 +1,7 @@
 - [Create an empty `set`](#create-an-empty-set)
 - [Create a `set` with elements](#create-a-set-with-elements)
+- [Using `add()`](#using-add())
+- [Using `update()`](#using-update())
 - [Using `intersection()`](#using-intersection())
 - [Using `union()`](#using-union())
 - [Using `difference()`](#using-difference())
@@ -10,18 +12,28 @@ empty_set = set()
 ```
 #### <a name="create-a-set-with-elements"></a>Create a `set` with elements:
 ```python
-numbers = set([21,57,17,41,42,60,83,69,87]) # Output: {69, 41, 42, 17, 83, 21, 87, 57, 60}
+numbers = set([1,2,3,4,5])
+print(numbers) # Output: {1, 2, 3, 4, 5}
+```
+#### <a name="using-add()"></a>Using `add()`:
+```python
+numbers.add(69)
+print(numbers) # Output: {1, 2, 3, 4, 5, 69}
+```
+#### <a name="using-update()"></a>Using `update()`:
+```python
+numbers.update([1,3,5,7,8,9,10])
+print(numbers) # Output: {1, 2, 3, 4, 5, 69, 7, 8, 9, 10}
 ```
 #### <a name="using-intersection()"></a>Using `intersection()`:
 ```python
-other_numbers = set([70,34,69,44,25,17])
-print(numbers.intersection(other_numbers)) # Output: {17, 69}
+print(numbers.intersection([1,3,5,7,8,9,10])) # Output: {1, 3, 5, 7, 8, 9, 10}
 ```
 #### <a name="using-union()"></a>Using `union()`:
 ```python
-print(numbers.union(other_numbers)) # Output: {34, 69, 70, 41, 42, 44, 17, 83, 21, 87, 57, 60, 25}
+print(numbers.union([1,3,5,7,8,9,10])) # Output: {1, 2, 3, 4, 5, 69, 7, 8, 9, 10}
 ```
 #### <a name="using-difference()"></a>Using `difference()`:
 ```python
-print(numbers.difference(other_numbers)) # Output: {41, 42, 83, 21, 87, 57, 60}
+print(numbers.difference([1,3,5,7,8,9,10])) # Output: {2, 4, 69}
 ```
