@@ -7,6 +7,7 @@
 - [Using `in`](#using-in)
 - [Using `len()`](#using-len())
 - [Using `sort()`](#using-sort())
+- [Using `join()`](#using-join())
 - [Using `pop()`](#using-pop())
 - [using `for`](#using-for)
 - [Using `enumerate()`](#using-enumerate())
@@ -49,10 +50,15 @@ if "Dasha" in friends:
 ```python
 print(len(friends)) # Output: 4
 ```
-#### <a name="using-sort)"></a>Using `sort()`:
+#### <a name="using-sort()"></a>Using `sort()`:
 ```python
 friends.sort()
 print(friends) # Output: ['Annabelle', 'Dasha', 'Scott', 'Svetlana']
+```
+#### <a name="using-join()"></a>Using `join()`:
+```python
+friends_str : str = " ".join(friends)
+print(friends_str) # Output: Annabelle Dasha Scott Svetlana
 ```
 #### <a name="using-pop()"></a>Using `pop()`:
 ```python
