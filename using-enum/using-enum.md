@@ -1,10 +1,10 @@
-- [Create an `enum`](#create-an-enum)
-- [Using an `enum`](#using-an-enum)
+- [Create an `Enum`](#create-an-enum)
+- [Using an `Enum`](#using-an-enum)
 - [Using `name`](#using-name)
 - [Using `value`](#using-value)
 - [Using `for`](#using-for)
 
-#### <a name="create-an-enum"></a>Create an `enum`:
+#### <a name="create-an-enum"></a>Create an `Enum`:
 ```python
 class CharacterType(Enum):
     ELF = 1
@@ -12,7 +12,7 @@ class CharacterType(Enum):
     ORC = 3
     WIZARD = 4
 ```
-#### <a name="using-an-enum"></a>Using an `enum`:
+#### <a name="using-an-enum"></a>Using an `Enum`:
 ```python
 print(CharacterType.ELF) # Output: CharacterType.ELF
 ```
