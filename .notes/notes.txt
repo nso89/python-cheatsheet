@@ -19,6 +19,11 @@
    print(names) # -- Correct.
    print(names.sort()) # -- Incorrect. Will return None.
 
+- Using join():
+
+   delimiter : str = " "
+   variable : str = delimiter.join(iterable)
+
 # using-dictionary:
 - Using a for loop with enumerate() will assign the index to the key and the pair as the value:
     
