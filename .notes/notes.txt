@@ -4,7 +4,7 @@
     character_name = " Empress Svetlana "
     print(len(character_name)) # Output: 18
 
-    # using strip() and len():
+    # # using strip() and len():
     print(len(character_name.strip())) # Output 16
 
 - Using split() will return a list:
@@ -28,3 +28,20 @@
         # The first pair is Sword : 20, but because enumerate returns an index,
         # key will be 1 (the index returned from enumerate) and value will be the pair Sword:20.
         print(f"Key: {key} Value: {value}")
+
+# using-set:
+- Remeber to include the [] inside the set() constructor:
+    letters = set([a,b,c,d]) # -- Correct
+    letters = set("a","b","c","d") # -- Incorrect. Will return TypeError.
+
+- It doesn't matter the order of the elements, __equal__ will determine which sets are equal and which aren't:
+
+    first_set = set([47,69,21])
+    second_set = set([69,21,47])
+    third_set = set([69,88,27])
+    
+    print(first_set) # Output: {21, 69, 47}
+    print(second_set) # Output: {21, 69, 47}
+
+    print(first_set == second_set) # Output: true
+    print(first_set == third_set) # Output: false
