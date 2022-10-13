@@ -6,4 +6,4 @@ My organized collection of Python code snippets
 - [Using `Sequence`](../main/using-sequence/using-sequence.md)
 - [Using `Dict`](../main/using-dict/using-dict.md)
 - [Using `set`](../main/using-set/using-set.md)
-- [Using `enum`](../main/using-enum/using-enum.md)
+- [Using `Enum`](../main/using-enum/using-enum.md)
