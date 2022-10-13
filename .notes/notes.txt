@@ -4,11 +4,10 @@ Instead of cluttering the code snippets with comments, we can keep notes about w
 
 Style Guide
 -----------
-
 # - The section.
 - The note we want to remember.
 A tab or 4 spaces before inserting a code sample.
-
+----------------------------------------------------------------------------------------------------
 # using-string:
 - To verify that strip worked, you can use len() to return the index:
   
