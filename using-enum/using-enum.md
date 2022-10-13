@@ -31,7 +31,7 @@ for character_type in CharacterType:
 
 # Output: 
 CharacterType.ELF
-CharacterType.KNIGHT,
-CharacterType.ORC,
+CharacterType.KNIGHT
+CharacterType.ORC
 CharacterType.WIZARD
 ```
