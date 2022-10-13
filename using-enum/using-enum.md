@@ -27,7 +27,7 @@ print(CharacterType.ELF.value) # Output: 1
 #### <a name="using-for"></a>Using `for`:
 ```python
 for character_type in CharacterType:
-    print(character_type) # 
+    print(character_type) 
 
 # Output: 
 CharacterType.ELF
