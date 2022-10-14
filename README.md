@@ -7,3 +7,8 @@ My organized collection of Python code snippets.
 - [Using `Dict`](../main/using-dict/using-dict.md)
 - [Using `set`](../main/using-set/using-set.md)
 - [Using `Enum`](../main/using-enum/using-enum.md)
+- [Using `NamedTuple`]
+- [Using functions]
+- [Using `class`]
+- Using io
+- Using `Exception`
