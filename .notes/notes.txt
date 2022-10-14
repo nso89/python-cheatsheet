@@ -76,7 +76,8 @@ A tab or 4 spaces before inserting a code sample.
 
     Suppose we had 4 elements in our tuple:
     svetlana : tuple = ("Empress Svetlana",25,69,"Trance")
-
+    
+    # Using *middle with print seems to extract the elements.
     print(*middle) # Output: 25,69
     # It's attempting to test the type of the two elements.
     print(type(*middle)) # Output: TypeError: type() takes 1 or 3 arguments
