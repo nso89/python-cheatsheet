@@ -12,3 +12,4 @@ My organized collection of Python code snippets.
 - Using `class`
 - Using io
 - Using `Exception`
+- Using `pathlib`
