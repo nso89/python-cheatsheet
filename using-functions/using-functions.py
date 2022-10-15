@@ -27,6 +27,7 @@ def main():
     # Using a function with parameters:
     inventory : List[str] = ["Book","Compass","Potion"]
     add(collection=inventory,item="Orb of Truth")
+    print(inventory) # Output: ['Book', 'Compass', 'Potion', 'Orb of Truth']
 
     # Using a fuction that returns a value:
     print(get_mana_level()) # Output: 69
