@@ -2,6 +2,8 @@
 - [Print a `string`](#print-a-string)
 - [Using `title()`](#using-title())
 - [Using `strip()`](#using-strip())
+- [Using `lower()`](#using-lower())
+- [Using `replace()`](#using-replace())
 - [Using `f-string`](#using-f-string)
 - [Using `in`](#using-in)
 - [Using `startswith()`](#using-startswith())
@@ -25,6 +27,15 @@ print(introduction.title()) # Output: Hello World
 ```python
 character_name = " Empress Svetlana "    
 print(character_name.strip()) # Output: Empress Svetlana
+```
+#### <a name="using-lower()"></a> Using `lower()`:
+```python
+character_name_lowered = character_name.lower()
+print(character_name_lowered) # Output: empress svetlana
+```
+#### <a name="using-replace()"></a> Using `replace()`:
+```python
+print(character_name_lowered.replace(" ","-")) # Output: empress-svetlana
 ```
 #### <a name="using-f-string"></a>Using `f-string`:
 ```python
