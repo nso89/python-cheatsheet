@@ -16,6 +16,7 @@ def add(collection: List[str], item: str) -> None:
 
 inventory : List[str] = ["Book","Compass","Potion"]
 add(inventory,"Orb of Truth")
+print(inventory) # Output: ['Book', 'Compass', 'Potion', 'Orb of Truth']
 ```
 #### <a name="using-a-fuction-that-returns-a-value"></a> Using a fuction that returns a value:
 ```python
