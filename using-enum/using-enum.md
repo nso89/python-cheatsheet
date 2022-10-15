@@ -30,8 +30,8 @@ for character_type in CharacterType:
     print(character_type) 
 
 # Output: 
-CharacterType.ELF
-CharacterType.KNIGHT
-CharacterType.ORC
-CharacterType.WIZARD
+# CharacterType.ELF
+# CharacterType.KNIGHT
+# CharacterType.ORC
+# CharacterType.WIZARD
 ```
