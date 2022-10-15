@@ -13,6 +13,13 @@ def main():
     character_name = " Empress Svetlana "    
     print(character_name.strip()) # Output: Empress Svetlana
 
+    # Using lower():
+    character_name_lowered = character_name.lower()
+    print(character_name_lowered) # Output: empress svetlana
+
+    # Using replace():
+    print(character_name_lowered.replace(" ","-")) # Output: empress-svetlana
+
     # Using f-string:
     print(f"{character_name.strip()}") # Output: Empress Svetlana
 
