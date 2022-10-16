@@ -6,7 +6,7 @@
 
 #### <a name="create-a-path-object"></a> Create a `Path` Object:
 ```python
-saved_games = Path("Saved Games")
+saved_3D_games = Path("Saved 3D Games")
 ```
 #### <a name="using-home()"></a> Using `home()`:
 ```python
@@ -15,7 +15,7 @@ print(Path.home()) # Output: C:\Users\nso89
 #### <a name="using-joinpath()"></a> Using `joinpath`():
 ```python
 user_profile = Path.home()
-print(user_profile.joinpath(saved_games)) # Output: C:\Users\nso89\Saved Games
+print(user_profile.joinpath(saved_3D_games)) # Output: C:\Users\nso89\Saved 3D Games
 ```
 #### <a name="using-mkdirs()"></a> Using `mkdirs()`: 
 ```python
