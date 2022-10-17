@@ -18,10 +18,10 @@ def main():
 
     # Using stem:
     game_save_file = complete_path_to_saved_3d_games.joinpath("progress.gsv")
-    print(game_save_file.stem)
+    print(game_save_file.stem) # Output: progress
 
     # Using suffix:
-    print(game_save_file.suffix)
+    print(game_save_file.suffix) # Output: .gsv
 
     # Using rmdir():
     complete_path_to_saved_3d_games.rmdir()
