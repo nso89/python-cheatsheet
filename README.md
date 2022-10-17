@@ -10,6 +10,6 @@ My organized collection of Python code snippets.
 - [Using `NamedTuple`](../main/using-namedtuple/using-namedtuple.md)
 - [Using functions](../main/using-functions/using-functions.md)
 - Using `class`
-- Using io
+- [Using io](../main/using-io/using-io.md)
 - Using `Exception`
 - [Using `pathlib`](../main/using-pathlib/using-pathlib.md)
