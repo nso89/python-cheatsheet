@@ -26,11 +26,11 @@ complete_path_to_saved_3d_games.mkdir(parents=True,exist_ok=True)
 #### <a name="using-stem"></a> Using `stem`:
 ```python
 game_save_file = complete_path_to_saved_3d_games.joinpath("progress.gsv")
-print(game_save_file.stem)
+print(game_save_file.stem) # Output: progress
 ```
 #### <a name="using-suffix"></a> Using `suffix`:
 ```python
-print(game_save_file.suffix)
+print(game_save_file.suffix) # Output: .gsv
 ```
 #### <a name="using-`rmdir()`"></a> Using `rmdir()`:
 ```python
