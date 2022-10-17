@@ -12,7 +12,6 @@
 - [using `for`](#using-for)
 - [Using `enumerate()`](#using-enumerate())
 - [Using `clear()`](#using-clear)
-
 #### <a name="create-an-empty-list"></a>Create an empty `List`:
 ```python
 empty_list : List[str] = []
