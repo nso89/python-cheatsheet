@@ -10,7 +10,6 @@
 - [Using `endsswith()`](#using-endsswith())
 - [Using `split()`](#using-split())
 - [Using `len()`](#using-len())
-
 #### <a name="create-a-string"></a>Create a `string`:
 ```python
 introduction : str = "hello world"
