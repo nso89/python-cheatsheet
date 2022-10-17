@@ -12,9 +12,16 @@ def main():
     user_profile = Path.home()
     print(user_profile.joinpath(saved_3D_games)) # Output: C:\Users\nso89\Saved 3D Games
 
-    # Using mkdirs():
+    # Using mkdir():
     complete_path_to_saved_3d_games = user_profile.joinpath(saved_3D_games)
     complete_path_to_saved_3d_games.mkdir(parents=True,exist_ok=True)
+
+    # Using stem:
+    game_save_file = complete_path_to_saved_3d_games.joinpath("progress.gsv")
+    print(game_save_file.stem)
+
+    # Using suffix:
+    print(game_save_file.suffix)
 
     # Using rmdir():
     complete_path_to_saved_3d_games.rmdir()
