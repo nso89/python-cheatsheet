@@ -1,7 +1,6 @@
 - [Creating an empty `tuple`](#create-an-empty-tuple)
 - [Creating a `tuple` with elements](#creating-a-tuple-with-elements)
 - [Unpacking a `tuple`](#unpacking-a-tuple)
-
 #### <a name="create-an-empty-tuple"></a>Create an empty `tuple`:
 ```python
 empty_tuple : tuple = ()
