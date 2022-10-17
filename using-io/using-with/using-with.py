@@ -8,12 +8,12 @@ def append_a_string_to_a_file(file_name:str, word:str) -> None:
     with open(file_name, "a") as stream:
         stream.write(f"{word}\n")
 
-def write_a_list_to_a_file(file_name:str, items:List[str]) -> None:
+def write_a_list_to_a_file(file_name:str, items:List[str]) -> List[str]:
     with open(file_name, "w") as stream:
         for word in items:
             stream.write(f"{word}\n")
 
-def read_a_list_from_a_file(file_name:str) -> str: 
+def read_a_list_from_a_file(file_name:str) -> List[str]: 
     with open(file_name) as f_obj:
         lines = f_obj.readlines()
     return lines
