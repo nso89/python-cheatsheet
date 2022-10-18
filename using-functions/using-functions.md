@@ -1,6 +1,6 @@
 - [Using an empty function](#using-an-empty-function)
 - [Using a function with parameters](#using-a-function-with-parameters)
-- [Using a fuction that returns a value](#using-a-fuction-that-returns-a-value)
+- [Using `return`](#using-return)
 - [Using positional arguments](#using-positional-arguments)
 - [Using keyword arguments](#using-keyword-arguments)
  #### <a name="using-an-empty-function"></a> Using an empty function:
@@ -17,7 +17,7 @@ inventory : List[str] = ["Book","Compass","Potion"]
 add(inventory,"Orb of Truth")
 print(inventory) # Output: ['Book', 'Compass', 'Potion', 'Orb of Truth']
 ```
-#### <a name="using-a-fuction-that-returns-a-value"></a> Using a fuction that returns a value:
+#### <a name="using-return"></a> Using `return`:
 ```python
 def get_mana_level() -> int:
     return 69
