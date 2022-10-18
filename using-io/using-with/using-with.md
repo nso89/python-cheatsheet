@@ -4,13 +4,14 @@
 - [Reading a `List` from a file](#reading-a-list-from-a-file)
 #### <a name="write-a-string-to-a-file"></a> Write a string to a file:
 ```python
+friends = "friends.txt"
+team_members = "team_members.txt"
+```
+```python
 def write_a_string_to_a_file(file_name:str, word:str) -> None:
     with open(file_name, "w") as stream:
         stream.write(f"{word}\n")
 
-friends = "friends.txt"
-team_members = "team_members.txt"
-    
 write_a_string_to_a_file(file_name=friends,word="Charles")
 ```
 #### <a name="appending-a-string-to-a-file"></a> Appending a string to a file:
