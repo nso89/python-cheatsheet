@@ -5,7 +5,6 @@
 - [Using `intersection()`](#using-intersection())
 - [Using `union()`](#using-union())
 - [Using `difference()`](#using-difference())
-
 #### <a name="create-an-empty-set"></a>Create an empty `set`:
 ```python
 empty_set = set()
