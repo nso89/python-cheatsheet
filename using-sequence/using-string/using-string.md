@@ -1,5 +1,5 @@
-- [Create a `string`](#create-a-string)
-- [Print a `string`](#print-a-string)
+- [Create a `str`](#create-a-string)
+- [Print a `str`](#print-a-string)
 - [Using `title()`](#using-title())
 - [Using `strip()`](#using-strip())
 - [Using `lower()`](#using-lower())
@@ -10,11 +10,11 @@
 - [Using `endsswith()`](#using-endsswith())
 - [Using `split()`](#using-split())
 - [Using `len()`](#using-len())
-#### <a name="create-a-string"></a>Create a `string`:
+#### <a name="create-a-string"></a>Create a `str`:
 ```python
 introduction : str = "hello world"
 ```
-#### <a name="print-a-string"></a>Print a `string`:
+#### <a name="print-a-string"></a>Print a `str`:
 ```python
 print(introduction) # Output: hello world
 ```
