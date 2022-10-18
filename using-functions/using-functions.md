@@ -3,7 +3,6 @@
 - [Using a fuction that returns a value](#using-a-fuction-that-returns-a-value)
 - [Using positional arguments](#using-positional-arguments)
 - [Using keyword arguments](#using-keyword-arguments)
-
  #### <a name="using-an-empty-function"></a> Using an empty function:
 ```python
 def empty_function() -> None:
