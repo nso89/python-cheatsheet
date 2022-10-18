@@ -1,6 +1,5 @@
 - [Creating a `NamedTuple`](#creating-a-namedtuple)
 - [Using `__str__()`](#using-__str__())
-
 #### <a name="creating-a-namedtuple"></a> Creating a `NamedTuple`:
 ```python
 class Weapon(NamedTuple):
