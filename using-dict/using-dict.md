@@ -10,7 +10,6 @@
 - [Using `for`](#using-for)
 - [Using `enumerate()`](#using-enumerate())
 - [Using `clear()`](#using-clear())
-
 #### <a name="create-an-empty-dict"></a>Create an Empty `Dict`:
 ```python
 empty_dict : Dict[str,int] = {}
