@@ -16,6 +16,9 @@ def main():
     complete_path_to_saved_3d_games = user_profile.joinpath(saved_3D_games)
     complete_path_to_saved_3d_games.mkdir(parents=True,exist_ok=True)
 
+    # Using parent():
+    print(complete_path_to_saved_3d_games.parent) # Output: C:\Users\Nash
+
     # Using stem:
     game_save_file = complete_path_to_saved_3d_games.joinpath("progress.gsv")
     print(game_save_file.stem) # Output: progress
