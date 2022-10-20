@@ -1,9 +1,9 @@
-- [Using an empty function](#using-an-empty-function)
+- [Using `pass`](#using-pass)
 - [Using a function with parameters](#using-a-function-with-parameters)
 - [Using `return`](#using-return)
 - [Using positional arguments](#using-positional-arguments)
 - [Using keyword arguments](#using-keyword-arguments)
- #### <a name="using-an-empty-function"></a> Using an empty function:
+ #### <a name="using-pass"></a> Using `pass`:
 ```python
 def empty_function() -> None:
     pass
