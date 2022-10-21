@@ -98,3 +98,9 @@ def character_attributes(**attribs):
 # Order matters, so this code will produce an error
 def order_matters(**kwargs,*positional_arguments): 
     # Output: SyntaxError: invalid syntax
+    
+# using-pathlib:
+Consider the following code:
+
+documents = Path(Path.home()).joinpath("Documents").iterdir()
+print(type(documents)) # Output: <class 'generator'>
