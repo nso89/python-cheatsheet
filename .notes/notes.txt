@@ -102,5 +102,5 @@ def order_matters(**kwargs,*positional_arguments):
 # using-pathlib:
 Consider the following code:
 
-documents = Path(Path.home()).joinpath("Documents").iterdir()
-print(type(documents)) # Output: <class 'generator'>
+    documents = Path(Path.home()).joinpath("Documents").iterdir() 
+    print(type(documents)) # Output: <class 'generator'>
