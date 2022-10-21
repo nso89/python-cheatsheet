@@ -17,7 +17,38 @@ def main():
     complete_path_to_saved_3d_games.mkdir(parents=True,exist_ok=True)
 
     # Using parent():
-    print(complete_path_to_saved_3d_games.parent) # Output: C:\Users\Nash
+    print(complete_path_to_saved_3d_games.parent) # Output: C:\Users\nso89
+
+    # Using iterdir():
+    documents = Path(Path.home()).joinpath("Documents").joinpath("Work")
+    for file in documents.iterdir():
+        print(file) 
+
+    # Output:
+    # C:\Users\nso89\Documents\Work\companies.txt
+    # C:\Users\nso89\Documents\Work\cover-letter-resume.odt
+    # C:\Users\nso89\Documents\Work\Easyfinancial
+    # C:\Users\nso89\Documents\Work\Tdsb
+    # C:\Users\nso89\Documents\Work\University Of Toronto 
+
+    # Using is_dir():
+    for file in documents.iterdir():
+        if file.is_dir():
+            print(file)
+            
+    # Output:
+    # C:\Users\nso89\Documents\Work\Easyfinancial
+    # C:\Users\nso89\Documents\Work\Tdsb
+    # C:\Users\nso89\Documents\Work\University Of Toronto
+
+    # Using is_file():
+    for file in documents.iterdir():
+        if file.is_file():
+            print(file)
+
+    # Output:
+    # C:\Users\nso89\Documents\Work\companies.txt
+    # C:\Users\nso89\Documents\Work\cover-letter-resume.odt
 
     # Using stem:
     game_save_file = complete_path_to_saved_3d_games.joinpath("progress.gsv")
