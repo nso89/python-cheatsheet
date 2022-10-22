@@ -1,4 +1,4 @@
-- [Create a `Path` Object](#create-a-path-object)
+- [Using `Path()`](#using-`path()`)
 - [Using `home()`](#using-`home()`)
 - [Using `joinpath()`](#using-`joinpath()`)
 - [Using `mkdir()`](#using-`mkdir()`)
@@ -9,7 +9,7 @@
 - [Using `stem`](#using-stem)
 - [Using `suffix`](#using-suffix)
 - [Using `rmdir()`](#using-`rmdir()`)
-#### <a name="create-a-path-object"></a> Create a `Path` Object:
+#### <a name="using-`path()`"></a> Using `Path()`:
 ```python
 saved_3D_games = Path("Saved 3D Games")
 ```
