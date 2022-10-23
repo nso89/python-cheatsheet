@@ -11,4 +11,4 @@ My organized collection of Python code snippets.
 - [Using functions](../main/using-functions/using-functions.md)
 - [Using io](../main/using-io/using-io.md)
 - [Using `pathlib`](../main/using-pathlib/using-pathlib.md)
-- [Using builtin functions](../main/using-builtin-functions/using-builtin-functions.md)
+- [Using `builtin` functions](../main/using-builtin-functions/using-builtin-functions.md)
