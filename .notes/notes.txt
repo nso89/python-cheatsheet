@@ -113,7 +113,7 @@ def order_matters(**kwargs,*positional_arguments):
 
 In other words, we'll get the returns values as they're coming in (on the fly).
 
-When using a for loop and an if statement to filter and perform and operation, we 
+When using a for loop and an if statement to filter and perform an operation, we 
 can use filter() to generate the results:
 
     zero_reminder : List[int] = [1,2,3,4,5,6,7,8,9,10]
