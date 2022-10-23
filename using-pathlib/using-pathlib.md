@@ -29,7 +29,7 @@ complete_path_to_saved_3d_games.mkdir(parents=True,exist_ok=True)
 ```
 #### <a name="using-`parent()`"></a> Using `parent()`:
 ```python
-print(complete_path_to_saved_3d_games.parent) # Output: C:\Users\Nash
+print(complete_path_to_saved_3d_games.parent) # Output: C:\Users\nso89
 ```
 #### <a name="using-`iterdir()`"></a> Using `iterdir()`:
 ```python
