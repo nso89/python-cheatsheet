@@ -120,8 +120,12 @@ can use filter() to generate the results:
     for number in zero_reminder:
         if number % 2 == 0:
             print(number)
+            
+    filter(divide_by_two,zero_reminder)
 
 When using a for loop perform an operation of all elements of an iterable:
 
     for number in zero_reminder:
         print(number * 2)
+        
+    map(multiply_by_two, zero_reminder)
