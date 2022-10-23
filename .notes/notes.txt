@@ -122,5 +122,6 @@ can use filter() to generate the results:
             print(number)
 
 When using a for loop perform an operation of all elements of an iterable:
+
     for number in zero_reminder:
         print(number * 2)
