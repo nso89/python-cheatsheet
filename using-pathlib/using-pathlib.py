@@ -20,7 +20,7 @@ def main():
     print(complete_path_to_saved_3d_games.parent) # Output: C:\Users\nso89
 
     # Using iterdir():
-    documents = Path(Path.home()).joinpath("Documents").joinpath("Work")
+    documents = Path.home().joinpath("Documents").joinpath("Work")
     for file in documents.iterdir():
         print(file) 
 
