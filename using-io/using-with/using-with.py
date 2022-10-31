@@ -4,6 +4,12 @@ def write_a_string_to_a_file(file_name:str, word:str) -> None:
     with open(file_name, "w") as stream:
         stream.write(f"{word}\n")
 
+def read_a_string_from_a_file(file_name:str) -> str:
+    line : str = ""
+    with open(file_name, "r") as stream:
+        line = stream.readline()
+    return line
+
 def append_a_string_to_a_file(file_name:str, word:str) -> None:
     with open(file_name, "a") as stream:
         stream.write(f"{word}\n")
@@ -20,11 +26,16 @@ def read_a_list_from_a_file(file_name:str) -> List[str]:
 
 def main():
     
-    friends = "friends.txt"
-    team_members = "team_members.txt"
+    friends : str = "friends.txt"
+    team_members : str = "team_members.txt"
+    file_name : str = "introduction.txt"
     
     # Write a string to a file:
     write_a_string_to_a_file(file_name=friends,word="Charles")
+    
+    # Reading a string from a file:
+    introduction  = read_a_string_from_a_file(file_name = file_name)
+    print(introduction)
 
     # Appending a string to a file:
     append_a_string_to_a_file(file_name=friends,word="Olivia")
