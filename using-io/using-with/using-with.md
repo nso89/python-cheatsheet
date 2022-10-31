@@ -1,10 +1,12 @@
 - [Write a `str` to a file](#write-a-str-to-a-file)
+- [Reading a `str` from a file](#reading-a-string-from-a-file)
 - [Appending a `str` to a file](#appending-a-str-to-a-file)
 - [Writing a `List` to a file](#writing-a-list-to-a-file)
 - [Reading a `List` from a file](#reading-a-list-from-a-file)
 ```python
 friends = "friends.txt"
 team_members = "team_members.txt"
+file_name = "introduction.txt"
 ```
 #### <a name="write-a-str-to-a-file"></a> Write a `str` to a file:
 ```python
@@ -13,6 +15,17 @@ def write_a_string_to_a_file(file_name:str, word:str) -> None:
         stream.write(f"{word}\n")
 
 write_a_string_to_a_file(file_name=friends,word="Charles")
+```
+#### <a name="reading-a-string-from-a-file"></a> Reading a `str` from a file:
+```python
+def read_a_string_from_a_file(file_name:str) -> str:
+    line : str = ""
+    with open(file_name, "r") as stream:
+        line = stream.readline()
+    return line
+
+introduction  = read_a_string_from_a_file(file_name = file_name)
+print(introduction)
 ```
 #### <a name="appending-a-str-to-a-file"></a> Appending a `str` to a file:
 ```python
