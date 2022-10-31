@@ -34,7 +34,7 @@ def main():
     write_a_string_to_a_file(file_name=friends,word="Charles")
     
     # Reading a string from a file:
-    introduction  = read_a_string_from_a_file(file_name = file_name)
+    introduction : str  = read_a_string_from_a_file(file_name = file_name)
     print(introduction)
 
     # Appending a string to a file:
