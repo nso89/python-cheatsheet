@@ -4,9 +4,9 @@
 - [Writing a `List` to a file](#writing-a-list-to-a-file)
 - [Reading a `List` from a file](#reading-a-list-from-a-file)
 ```python
-friends = "friends.txt"
-team_members = "team_members.txt"
-file_name = "introduction.txt"
+friends : str = "friends.txt"
+team_members : str = "team_members.txt"
+file_name : str = "introduction.txt"
 ```
 #### <a name="write-a-str-to-a-file"></a> Write a `str` to a file:
 ```python
