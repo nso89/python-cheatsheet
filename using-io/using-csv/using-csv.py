@@ -16,14 +16,7 @@ def main():
     with open("friends.csv", newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
-            if row:
-                print(row["id"], row["first-name"].title(), row["last-name"].title())
-    
-    # Output:
-    # 1 Charles Whitfield
-    # 2 Svetlana Rosemond
-    # 3 Annabelle Vodianova
-    # 4 Natalya Sivakova
-        
+            print(row["id"], row["first-name"].title(), row["last-name"].title())
+                
 if __name__ == "__main__":
     main()
