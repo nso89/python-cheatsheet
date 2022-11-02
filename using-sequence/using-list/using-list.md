@@ -1,5 +1,5 @@
 - [Create an empty `List`](#create-an-empty-list)
-- [Create a List with elements](#create-a-list-with-elements)
+- [Create a `List` with elements](#create-a-list-with-elements)
 - [Using `List` comprehension](#using-list-comprehension)
 - [Using `append()`](#using-append())
 - [Using index](#using-index)
