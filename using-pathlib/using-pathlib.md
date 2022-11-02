@@ -25,7 +25,7 @@ print(user_profile.joinpath(saved_3D_games)) # Output: C:\Users\nso89\Saved 3D G
 #### <a name="using-`mkdir()`"></a> Using `mkdir()`:
 ```python
 complete_path_to_saved_3d_games = user_profile.joinpath(saved_3D_games)
-complete_path_to_saved_3d_games.mkdir(parents=True,exist_ok=True)
+complete_path_to_saved_3d_games.mkdir(parents = True, exist_ok = True)
 ```
 #### <a name="using-`parent`"></a> Using `parent`:
 ```python
