@@ -1,6 +1,6 @@
-- [Using `datetime.now()` with `strftime()`](#using-`datetime.now()`-with-`strftime()`)
+- [Using `datetime.now().strftime()`](#using-`datetime.now()`-with-`strftime()`)
 - [Using `time.strftime()`](#using-`time.strftime()`)
-#### <a name="using-`datetime.now()`-with-`strftime()`"></a> Using `datetime.now()` with `strftime()`:
+#### <a name="using-`datetime.now().strftime()`"></a> Using `datetime.now().strftime()`:
 ```python
 print(datetime.now().strftime("%Y%m%d-%H%M%S")) # Output: 20221101-110107
 ```
