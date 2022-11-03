@@ -26,7 +26,7 @@ def main():
 
     # Using a function with parameters:
     inventory : List[str] = ["Book","Compass","Potion"]
-    add(collection=inventory,item="Orb of Truth")
+    add(collection = inventory, item = "Orb of Truth")
     print(inventory) # Output: ['Book', 'Compass', 'Potion', 'Orb of Truth']
 
     # Using a fuction that returns a value:
@@ -44,7 +44,7 @@ def main():
     # 5. Svetlana
 
     # Using keyword arguments:
-    character_attributes(name="Empress Svetlana",age=22,music_genre="Trance",drink="Mint Hot Chocolate")
+    character_attributes(name = "Empress Svetlana", age = 22, music_genre = "Trance", drink = "Mint Hot Chocolate")
 
     # Output:
     # Character Attributes:
