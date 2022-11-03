@@ -1,4 +1,4 @@
-- [Using `datetime.now().strftime()`](#using-`datetime.now()`-with-`strftime()`)
+- [Using `datetime.now().strftime()`](#using-`datetime.now().strftime()`)
 - [Using `time.strftime()`](#using-`time.strftime()`)
 #### <a name="using-`datetime.now().strftime()`"></a> Using `datetime.now().strftime()`:
 ```python
