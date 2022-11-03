@@ -14,7 +14,7 @@ def write_a_string_to_a_file(file_name:str, word:str) -> None:
     with open(file_name, "w") as stream:
         stream.write(f"{word}\n")
 
-write_a_string_to_a_file(file_name=friends,word="Charles")
+write_a_string_to_a_file(file_name=friends,word = "Charles")
 ```
 #### <a name="reading-a-string-from-a-file"></a> Reading a `str` from a file:
 ```python
