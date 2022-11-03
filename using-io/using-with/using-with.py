@@ -31,21 +31,21 @@ def main():
     file_name : str = "introduction.txt"
     
     # Write a string to a file:
-    write_a_string_to_a_file(file_name=friends,word="Charles")
+    write_a_string_to_a_file(file_name = friends, word = "Charles")
     
     # Reading a string from a file:
     introduction : str  = read_a_string_from_a_file(file_name = file_name)
     print(introduction)
 
     # Appending a string to a file:
-    append_a_string_to_a_file(file_name=friends,word="Olivia")
+    append_a_string_to_a_file(file_name=friends,word = "Olivia")
     
     # Writing a List to a file:
     team_mates : List[str] = ["Scott","Annabelle","Dasha","Svetlana"] 
-    write_a_list_to_a_file(file_name=team_members,items=team_mates)
+    write_a_list_to_a_file(file_name = team_members, items = team_mates)
     
     # Reading a List from a file:
-    print(read_a_list_from_a_file(file_name=team_members))
+    print(read_a_list_from_a_file(file_name = team_members))
      
 if __name__ == "__main__":
     main()
