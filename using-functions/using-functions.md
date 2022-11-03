@@ -14,7 +14,7 @@ def add(collection: List[str], item: str) -> None:
     collection.append(item)
 
 inventory : List[str] = ["Book","Compass","Potion"]
-add(inventory,"Orb of Truth")
+add(collection = inventory, item = "Orb of Truth")
 print(inventory) # Output: ['Book', 'Compass', 'Potion', 'Orb of Truth']
 ```
 #### <a name="using-return"></a> Using `return`:
@@ -48,7 +48,7 @@ def character_attributes(**attribs):
     for keyword,value in attribs.items():
         print(f"{keyword}: {value}")
 
-character_attributes(name="Empress Svetlana",age=22,music_genre="Trance",drink="Mint Hot Chocolate")
+character_attributes(name = "Empress Svetlana", age = 22, music_genre = "Trance", drink = "Mint Hot Chocolate")
 
 # Output:
 # Character Attributes:
