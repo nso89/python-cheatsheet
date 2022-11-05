@@ -2,14 +2,14 @@ from typing import Dict
 
 def main():
 
-    # Create an Empty Dictionary:
+    # Create an empty Dict:
     empty_dict : Dict[str,int] = {}
 
-    # Create a Dictionary with items:
+    # Create a Dict with items:
     weapons : Dict[str,int] = {"Sword" : 20, "Axe": 10}
     print(weapons) # Output: {'Sword': 20, 'Axe': 10}
 
-    # Using a Dictionary Comprehension:
+    # Using a Dict Comprehension:
     positions = {x[0]: x[1]  for x in [('A',69), ('B', 42), ('C', 17)]}
     print(positions) # Output: {'A': 69, 'B': 42, 'C': 17} 
 
