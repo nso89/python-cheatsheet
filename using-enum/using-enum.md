@@ -4,7 +4,7 @@
 - [Using `value`](#using-`value`)
 - [Using `for`](#using-`for`)
 - [Output](#output)
-#### <a name="create-an-enum"></a>Create an `Enum`:
+#### <a name="create-an-`enum`"></a>Create an `Enum`:
 ```python
 class CharacterType(Enum):
     ELF = 1
