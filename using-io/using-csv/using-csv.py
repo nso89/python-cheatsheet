@@ -2,7 +2,7 @@ import csv
 
 def main():
 
-    # Writing a CSV file:
+    # Writing a csv file:
     with open('friends.csv', 'a', newline='') as csvfile:
         fields_names = ["id","first-name","last-name"]
         writer = csv.DictWriter(csvfile,fieldnames=fields_names,lineterminator="\n")
@@ -12,7 +12,7 @@ def main():
         writer.writerow({'id': "3",  'first-name': "annabelle", 'last-name': "vodianova"})
         writer.writerow({'id': "4",  'first-name': "natalya", 'last-name': "sivakova"})
     
-    # Reading a CSV file:
+    # Reading a csv file:
     with open("friends.csv", newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
