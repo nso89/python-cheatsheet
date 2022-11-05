@@ -1,9 +1,9 @@
 def main():
 
-    # Create a string:
+    # Create a str:
     introduction : str = "hello world"
     
-    # Print a string:
+    # Print a str:
     print(introduction) # Output: hello world
 
     # Using title():
@@ -27,7 +27,7 @@ def main():
     if "world" in introduction:
         print("String contains world.") # Output: String contains world.
 
-    # Using startsswith()
+    # Using startswith():
     if introduction.startswith("he"):
         print("String starts with he.") # Output: String starts with he.
 
