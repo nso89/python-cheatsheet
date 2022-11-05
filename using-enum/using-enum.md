@@ -3,7 +3,6 @@
 - [Using `name`](#using-`name`)
 - [Using `value`](#using-`value`)
 - [Using `for`](#using-`for`)
-- [Output](#output)
 #### <a name="create-an-`enum`"></a>Create an `Enum`:
 ```python
 class CharacterType(Enum):
