@@ -1,9 +1,9 @@
-- [Using `pass`](#using-pass)
+- [Using `pass`](#using-`pass`)
 - [Using a function with parameters](#using-a-function-with-parameters)
-- [Using `return`](#using-return)
+- [Using `return`](#using-`return`)
 - [Using positional arguments](#using-positional-arguments)
 - [Using keyword arguments](#using-keyword-arguments)
- #### <a name="using-pass"></a> Using `pass`:
+#### <a name="using-`pass`"></a> Using `pass`:
 ```python
 def empty_function() -> None:
     pass
@@ -13,11 +13,11 @@ def empty_function() -> None:
 def add(collection: List[str], item: str) -> None:
     collection.append(item)
 
-inventory : List[str] = ["Book","Compass","Potion"]
+inventory : List[str] = ["Book", "Compass", "Potion"]
 add(collection = inventory, item = "Orb of Truth")
 print(inventory) # Output: ['Book', 'Compass', 'Potion', 'Orb of Truth']
 ```
-#### <a name="using-return"></a> Using `return`:
+#### <a name="using-`return`"></a> Using `return`:
 ```python
 def get_mana_level() -> int:
     return 69
@@ -28,8 +28,8 @@ print(get_mana_level()) # Output: 69
 ```python
 def team_members(*members):
     print(f"List of Team Members:")
-    for member in members:
-        print(member)
+    for index, member in enumerate(members, start=1):
+        print(f"{index}.{member}")
 
 team_members('Scott', 'Annabelle', 'Dasha', 'Charles', 'Svetlana')
 
