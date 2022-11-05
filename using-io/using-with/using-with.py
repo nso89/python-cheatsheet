@@ -1,16 +1,16 @@
 from typing import List
 
-def write_a_string_to_a_file(file_name:str, word:str) -> None:
+def write_a_str_to_a_file(file_name:str, word:str) -> None:
     with open(file_name, "w") as stream:
         stream.write(f"{word}\n")
 
-def read_a_string_from_a_file(file_name:str) -> str:
+def read_a_str_from_a_file(file_name:str) -> str:
     line : str = ""
     with open(file_name, "r") as stream:
         line = stream.readline()
     return line
 
-def append_a_string_to_a_file(file_name:str, word:str) -> None:
+def append_a_str_to_a_file(file_name:str, word:str) -> None:
     with open(file_name, "a") as stream:
         stream.write(f"{word}\n")
 
@@ -30,18 +30,18 @@ def main():
     team_members : str = "team_members.txt"
     file_name : str = "introduction.txt"
     
-    # Write a string to a file:
-    write_a_string_to_a_file(file_name = friends, word = "Charles")
+    # Write a str to a file:
+    write_a_str_to_a_file(file_name = friends, word = "Charles")
     
-    # Reading a string from a file:
-    introduction : str  = read_a_string_from_a_file(file_name = file_name)
+    # Reading a str from a file:
+    introduction : str  = read_a_str_from_a_file(file_name = file_name)
     print(introduction)
 
-    # Appending a string to a file:
-    append_a_string_to_a_file(file_name=friends,word = "Olivia")
+    # Appending a str to a file:
+    append_a_str_to_a_file(file_name = friends, word = "Olivia")
     
     # Writing a List to a file:
-    team_mates : List[str] = ["Scott","Annabelle","Dasha","Svetlana"] 
+    team_mates : List[str] = ["Scott", "Annabelle", "Dasha", "Svetlana"] 
     write_a_list_to_a_file(file_name = team_members, items = team_mates)
     
     # Reading a List from a file:
