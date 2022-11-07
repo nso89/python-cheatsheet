@@ -14,7 +14,7 @@ def main():
 
     # Using mkdir():
     complete_path_to_saved_3d_games = user_profile.joinpath(saved_3D_games)
-    complete_path_to_saved_3d_games.mkdir(parents=True,exist_ok=True)
+    #complete_path_to_saved_3d_games.mkdir(parents=True,exist_ok=True)
 
     # Using parent():
     print(complete_path_to_saved_3d_games.parent) # Output: C:\Users\nso89
@@ -54,11 +54,14 @@ def main():
     game_save_file = complete_path_to_saved_3d_games.joinpath("progress.gsv")
     print(game_save_file.stem) # Output: progress
 
+    # Using name:
+    print(game_save_file.name) # Output: progress.gsv
+
     # Using suffix:
     print(game_save_file.suffix) # Output: .gsv
 
     # Using rmdir():
-    complete_path_to_saved_3d_games.rmdir()
+    #complete_path_to_saved_3d_games.rmdir()
 
 if __name__ == "__main__":
     main()
