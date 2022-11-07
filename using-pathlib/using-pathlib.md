@@ -6,8 +6,9 @@
 - [Using `iterdir()`](#using-`iterdir()`)
 - [Using `is_dir()`](#using-`is_dir()`)
 - [Using `is_file()`](#using-`is_file()`)
-- [Using `stem`](#using-stem)
-- [Using `suffix`](#using-suffix)
+- [Using `stem`](#using-`stem`)
+- [Using `name`](#using-`name`)
+- [Using `suffix`](#using-`suffix`)
 - [Using `rmdir()`](#using-`rmdir()`)
 #### <a name="using-`path()`"></a> Using `Path()`:
 ```python
@@ -65,12 +66,16 @@ for file in documents.iterdir():
 # C:\Users\nso89\Documents\Work\companies.txt
 # C:\Users\nso89\Documents\Work\cover-letter-resume.odt
 ```
-#### <a name="using-stem"></a> Using `stem`:
+#### <a name="using-`stem`"></a> Using `stem`:
 ```python
 game_save_file = complete_path_to_saved_3d_games.joinpath("progress.gsv")
 print(game_save_file.stem) # Output: progress
 ```
-#### <a name="using-suffix"></a> Using `suffix`:
+#### <a name="using-`name`"></a> Using `name`:
+```python
+print(game_save_file.stem) # Output: progress.gsv
+```
+#### <a name="using-`suffix`"></a> Using `suffix`:
 ```python
 print(game_save_file.suffix) # Output: .gsv
 ```
