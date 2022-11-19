@@ -8,7 +8,7 @@ zero_reminder : List[int] = [1,2,3,4,5,6,7,8,9,10]
 def multiply_by_two(number:int) -> int:
     return number * 2
 
-for number in filter(divide_by_two,zero_reminder):
+for number in filter(divide_by_two, zero_reminder):
     print(number)
 
 # Output:
