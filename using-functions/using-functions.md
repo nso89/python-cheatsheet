@@ -1,12 +1,11 @@
-- [Using `pass`](#using-`pass`)
+- [Using `pass`](#using-pass)
 - [Using a function with parameters](#using-a-function-with-parameters)
-- [Using `return`](#using-`return`)
+- [Using `return`](#using-return)
 - [Using positional arguments](#using-positional-arguments)
 - [Using keyword arguments](#using-keyword-arguments)
-#### <a name="using-`pass`"></a> Using `pass`:
+#### <a name="using-pass"></a> Using `pass`:
 ```python
-def empty_function() -> None:
-    pass
+empty_function()
 ```
 #### <a name="using-a-function-with-parameters"></a> Using a function with parameters:
 ```python
@@ -17,7 +16,7 @@ inventory : List[str] = ["Book", "Compass", "Potion"]
 add(collection = inventory, item = "Orb of Truth")
 print(inventory) # Output: ['Book', 'Compass', 'Potion', 'Orb of Truth']
 ```
-#### <a name="using-`return`"></a> Using `return`:
+#### <a name="using-return"></a> Using `return`:
 ```python
 def get_mana_level() -> int:
     return 69
