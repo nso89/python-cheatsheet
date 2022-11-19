@@ -1,10 +1,32 @@
-- [Using `datetime.now().strftime()`](#using-`datetime.now().strftime()`)
-- [Using `time.strftime()`](#using-`time.strftime()`)
-#### <a name="using-`datetime.now().strftime()`"></a> Using `datetime.now().strftime()`:
+- [Using `filter()`](#using-filter())
+- [Using `map()`](#using-map())
+#### <a name="using-filter()"></a> Using `filter()`:
 ```python
-print(datetime.now().strftime("%Y%m%d-%H%M%S")) # Output: 20221101-110107
+zero_reminder : List[int] = [1,2,3,4,5,6,7,8,9,10]
+for number in filter(divide_by_two,zero_reminder):
+    print(number)
+
+# Output:
+# 2
+# 4 
+# 6 
+# 8 
+# 10
 ```
-#### <a name="using-`time.strftime()`"></a> Using `time.strftime()`:
+#### <a name="using-map()"></a> Using `map()`:
 ```python
-print(time.strftime("%Y%m%d-%H%M%S")) # Output: 20221101-110107
+for number in map(multiply_by_two, zero_reminder):
+    print(number)
+
+# Output:
+# 2
+# 4
+# 6
+# 8
+# 10
+# 12
+# 14
+# 16
+# 18
+# 20
 ```
