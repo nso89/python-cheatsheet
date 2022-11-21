@@ -14,7 +14,7 @@ def convert_word_to_markdown_syntax(keywords : set[str], words : str) -> str:
     
     Args:
         keywords : set[str] - the set containing our keywords.
-        words : str - the word were checking for in our set.
+        words : str - the words were checking for in our set.
     
     Returns:
         Using .join(), we return our string properly quoted.
