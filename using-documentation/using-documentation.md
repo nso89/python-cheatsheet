@@ -6,7 +6,7 @@
 ```
 #### <a name="using-docstring"></a> Using docstring:
 ```python
-def convert_comment_to_markdown_syntax(keywords : set[str], verify : str) -> str:
+def convert_word_to_markdown_syntax(keywords : set[str], word : str) -> str:
     """
     Check a string against a set of keywords, if the string exists, add 
     backquotes, and append it to the list. If the word doesn't exist, just 
@@ -22,5 +22,5 @@ def convert_comment_to_markdown_syntax(keywords : set[str], verify : str) -> str
     Example:
         Using title() becomes Using `title()`
     """
-    return " ".join([f"`{word}`" if word in keywords else word for word in verify.split(" ")])
+    return " ".join([f"`{word}`" if word in keywords else word for word in word.split(" ")])
 ```
