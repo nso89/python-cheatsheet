@@ -3,7 +3,7 @@
 My organized collection of Python code snippets.
 
 #### Table of Contents
-- [Using documentation](../main/using-documentation/using-documentation.md)
+- [Using Documentation](../main/using-documentation/using-documentation.md)
 - [Using `Sequence`](../main/using-sequence/using-sequence.md)
 - [Using `Dict`](../main/using-dict/using-dict.md)
 - [Using `set`](../main/using-set/using-set.md)
