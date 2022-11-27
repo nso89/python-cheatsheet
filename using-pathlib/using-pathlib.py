@@ -2,7 +2,7 @@ from pathlib import Path
 
 def main():
 
-    # Create a Path Object:
+    # Using Path():
     saved_3D_games = Path("Saved 3D Games")
 
     # Using home():
