@@ -2,6 +2,11 @@
 
 My organized collection of Python code snippets.
 
+```python
+message : str = "I'm learning Python!"
+print(message) # Output: I'm learning Python!
+```
+
 #### Table of Contents
 - [Using Documentation](../main/using-documentation/using-documentation.md)
 - [Using `Sequence`](../main/using-sequence/using-sequence.md)
