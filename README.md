@@ -3,13 +3,9 @@
 My organized collection of Python code snippets.
 
 ```python
-def main():
-    
-    message : str = "I'm learning Python!"
-    print(message) # Output: I'm learning Python!
-
-if __name__ == "__main__":
-    main()
+>>> message : str = "I'm learning Python!"
+>>> message
+I'm learning Python!
 ```
 
 #### Table of Contents
