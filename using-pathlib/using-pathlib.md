@@ -10,6 +10,7 @@
 - [Using `name`](#using-name)
 - [Using `suffix`](#using-suffix)
 - [Using `rmdir()`](#using-rmdir())
+- [Using `resolve()`](#using-resolve())
 #### <a name="using-path"></a> Using `Path()`:
 ```python
 saved_3D_games = Path("Saved 3D Games")
@@ -83,4 +84,8 @@ print(game_save_file.suffix) # Output: .gsv
 #### <a name="using-rmdir()"></a> Using `rmdir()`:
 ```python
 complete_path_to_saved_3d_games.rmdir()
+```
+#### <a name="using-resolve()"></a> Using `resolve()`:
+```python
+print(Path().resolve()) # Output: C:\Users\nso89\Projects
 ```
