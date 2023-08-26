@@ -1,6 +1,6 @@
-- [Using `filter()`](#using-`filter()`)
-- [Using `map()`](#using-`map()`)
-- [Using `sum()`](#using-`sum()`)
+- [Using `filter()`](#using-filter())
+- [Using `map()`](#using-map())
+- [Using `sum()`](#using-sum())
 ```python
 def divide_by_two(number: int) -> bool:
     return number % 2 == 0
