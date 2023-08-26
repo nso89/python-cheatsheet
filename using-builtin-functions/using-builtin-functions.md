@@ -1,5 +1,6 @@
 - [Using `filter()`](#using-`filter()`)
 - [Using `map()`](#using-`map()`)
+- [Using `sum()`](#using-`sum()`)
 ```python
 def divide_by_two(number: int) -> bool:
     return number % 2 == 0
@@ -38,4 +39,12 @@ for number in map(multiply_by_two, zero_reminder):
 # 16
 # 18
 # 20
+```
+#### <a name="using-`sum()`"></a>Using `sum()`:
+```python
+numbers = [60, 9]
+print(sum(numbers))
+
+# Output:
+# 69
 ```
