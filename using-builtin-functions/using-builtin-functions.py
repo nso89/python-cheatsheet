@@ -38,6 +38,13 @@ def main():
     # 16
     # 18
     # 20
+
+    # Using sum():
+    numbers = [60, 9]
+    print(sum(numbers))
+
+    # Output:
+    # 69
     
 if __name__ == "__main__":
     main()
