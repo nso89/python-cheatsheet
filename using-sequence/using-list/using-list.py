@@ -37,8 +37,8 @@ def main():
     print(friends) # Output: ['Annabelle', 'Dasha', 'Scott', 'Svetlana']
 
     # Using join():
-    friends_str : str = " ".join(friends)
-    print(friends_str) # Output: Annabelle Dasha Scott Svetlana 
+    acquaintances : str = " ".join(friends)
+    print(acquaintances) # Output: Annabelle Dasha Scott Svetlana 
 
     # Using pop():
     last_friend = friends.pop()

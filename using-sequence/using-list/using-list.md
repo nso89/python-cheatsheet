@@ -56,8 +56,8 @@ print(friends) # Output: ['Annabelle', 'Dasha', 'Scott', 'Svetlana']
 ```
 #### <a name="using-join()"></a>Using `join()`:
 ```python
-friends_str : str = " ".join(friends)
-print(friends_str) # Output: Annabelle Dasha Scott Svetlana 
+acquaintances : str = " ".join(friends)
+print(acquaintances) # Output: Annabelle Dasha Scott Svetlana 
 ```
 #### <a name="using-pop()"></a>Using `pop()`:
 ```python
