@@ -23,7 +23,7 @@ print(friends) # Output: ['Scott', 'Annabelle', 'Dasha', 'Charles']
 ```
 #### <a name="using-list-comprehension"></a>Using `List` comprehension:
 ```python
-names_with_e = [name for name in friends if "e" in name ]
+names_with_e = [name for name in friends if "e" in name]
 print(names_with_e) # Output: ['Annabelle', 'Charles']
 ```
 #### <a name="using-append()"></a>Using `append()`:
