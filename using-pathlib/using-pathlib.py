@@ -7,7 +7,7 @@ def main():
     saved_3D_games = Path("Saved 3D Games")
 
     # Using home():
-    print(Path.home()) # Output: C:\Users\nso8
+    print(Path.home()) # Output: C:\Users\nso89
 
     # Using joinpath():
     user_profile = Path.home()
