@@ -17,7 +17,7 @@ saved_3D_games = Path("Saved 3D Games")
 ```
 #### <a name="using-home()"></a> Using `home()`:
 ```python
-print(Path.home()) # Output: C:\Users\nso8
+print(Path.home()) # Output: C:\Users\nso89
 ```
 #### <a name="using-joinpath()"></a> Using `joinpath()`:
 ```python
