@@ -10,6 +10,7 @@
 - [Using `name`](#using-name)
 - [Using `suffix`](#using-suffix)
 - [Using `rmdir()`](#using-rmdir())
+- [Using `rename()`](#using-rename())
 - [Using `with_suffix()`](#using-with_suffix())
 #### <a name="using-path"></a> Using `Path()`:
 ```python
@@ -81,6 +82,12 @@ print(game_save_file.suffix) # Output: .gsv
 #### <a name="using-rmdir()"></a> Using `rmdir()`:
 ```python
 complete_path_to_saved_3d_games.rmdir()
+```
+#### <a name="using-rename()"></a> Using `rename()`:
+```python
+enterprise_d = Path.home().joinpath("Documents\Work\Enterprise")
+print(enterprise_d) # Output: C:\Users\nso89\Documents\Work\Enterprise
+enterprise_d.rename("D:\Work\Enterprise-1701-D")
 ```
 #### <a name="using-with_suffix()"></a> Using `with_suffix()`:
 ```python
