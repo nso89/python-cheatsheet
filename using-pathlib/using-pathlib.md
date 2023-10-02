@@ -86,7 +86,6 @@ complete_path_to_saved_3d_games.rmdir()
 #### <a name="using-rename()"></a> Using `rename()`:
 ```python
 enterprise_d = Path.home().joinpath("Documents\Work\Enterprise")
-print(enterprise_d) # Output: C:\Users\nso89\Documents\Work\Enterprise
 enterprise_d.rename("D:\Work\Enterprise-1701-D")
 ```
 #### <a name="using-with_suffix()"></a> Using `with_suffix()`:
