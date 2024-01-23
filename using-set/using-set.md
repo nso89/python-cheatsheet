@@ -11,7 +11,7 @@ empty_set = set()
 ```
 #### <a name="using-set-with-elements"></a>Using `set` with elements:
 ```python
-numbers = set([1,2,3,4,5])
+numbers : set = {1,2,3,4,5}
 print(numbers) # Output: {1, 2, 3, 4, 5}
 ```
 #### <a name="using-add()"></a>Using `add()`:
