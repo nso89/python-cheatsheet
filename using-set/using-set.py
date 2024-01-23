@@ -7,7 +7,7 @@ def main():
     empty_set = set()
 
     # Using set with elements:
-    numbers = set([1,2,3,4,5])
+    numbers : set = {1,2,3,4,5}
     print(numbers) # Output: {1, 2, 3, 4, 5}
 
     # Using add():
