@@ -15,7 +15,7 @@ def get_mana_level() -> int:
 
 def team_members(*members):
     print(f"List of Team Members:")
-    for index, member in enumerate(members, start=1):
+    for index, member in enumerate(members, start = 1):
         print(f"{index}.{member}")
 
 
