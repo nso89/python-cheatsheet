@@ -4,7 +4,7 @@ from typing import Set
 def main():
 
     # Using an empty set:
-    empty_set = set()
+    empty = set()
 
     # Using set with elements:
     numbers : set = {1,2,3,4,5}
