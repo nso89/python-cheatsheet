@@ -7,7 +7,7 @@
 - [Using `setdifference()`](#using-setdifference())
 #### <a name="using-an-empty-set"></a>Using an empty `set`:
 ```python
-empty_set = set()
+empty = set()
 ```
 #### <a name="using-set-with-elements"></a>Using `set` with elements:
 ```python
